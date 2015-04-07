@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48FE32B1AD05FED0025863E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE32A1AD05FED0025863E /* main.m */; };
+		B48FE32E1AD05FED0025863E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE32D1AD05FED0025863E /* AppDelegate.m */; };
+		B48FE3311AD05FED0025863E /* newCVICU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48FE32F1AD05FED0025863E /* newCVICU.xcdatamodeld */; };
+		B48FE3341AD05FED0025863E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3331AD05FED0025863E /* ViewController.m */; };
+		B48FE3371AD05FED0025863E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48FE3351AD05FED0025863E /* Main.storyboard */; };
+		B48FE3391AD05FED0025863E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48FE3381AD05FED0025863E /* Images.xcassets */; };
+		B48FE33C1AD05FED0025863E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48FE33A1AD05FED0025863E /* LaunchScreen.xib */; };
+		B48FE3481AD05FED0025863E /* newCVICUTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3471AD05FED0025863E /* newCVICUTests.m */; };
+		B48FE3521AD061800025863E /* Loginback.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B48FE3511AD061800025863E /* Loginback.jpg */; };
+		B48FE3551AD062740025863E /* customTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3541AD062740025863E /* customTextField.m */; };
+		B48FE3581AD084140025863E /* MainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3571AD084140025863E /* MainBoard.m */; };
+		B48FE35B1AD089530025863E /* patientsBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE35A1AD089530025863E /* patientsBoard.m */; };
+		B48FE35E1AD09EB80025863E /* ComplicationTable.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE35D1AD09EB80025863E /* ComplicationTable.m */; };
+		B48FE3631AD0A3A40025863E /* Cardiopulmonary resuscitation.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3621AD0A3A40025863E /* Cardiopulmonary resuscitation.m */; };
+		B48FE3661AD0D1FB0025863E /* CPR Options.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3651AD0D1FB0025863E /* CPR Options.m */; };
+		B48FE3691AD0D8AB0025863E /* Hypothermia.m in Sources */ = {isa = PBXBuildFile; fileRef = B48FE3681AD0D8AB0025863E /* Hypothermia.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48FE3421AD05FED0025863E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48FE31D1AD05FED0025863E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48FE3241AD05FED0025863E;
+			remoteInfo = newCVICU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B48FE3251AD05FED0025863E /* newCVICU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newCVICU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48FE3291AD05FED0025863E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48FE32A1AD05FED0025863E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48FE32C1AD05FED0025863E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48FE32D1AD05FED0025863E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B48FE3301AD05FED0025863E /* newCVICU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = newCVICU.xcdatamodel; sourceTree = "<group>"; };
+		B48FE3321AD05FED0025863E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B48FE3331AD05FED0025863E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B48FE3361AD05FED0025863E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48FE3381AD05FED0025863E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B48FE33B1AD05FED0025863E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B48FE3411AD05FED0025863E /* newCVICUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newCVICUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48FE3461AD05FED0025863E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48FE3471AD05FED0025863E /* newCVICUTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newCVICUTests.m; sourceTree = "<group>"; };
+		B48FE3511AD061800025863E /* Loginback.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loginback.jpg; sourceTree = "<group>"; };
+		B48FE3531AD062740025863E /* customTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTextField.h; sourceTree = "<group>"; };
+		B48FE3541AD062740025863E /* customTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTextField.m; sourceTree = "<group>"; };
+		B48FE3561AD084140025863E /* MainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoard.h; sourceTree = "<group>"; };
+		B48FE3571AD084140025863E /* MainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoard.m; sourceTree = "<group>"; };
+		B48FE3591AD089530025863E /* patientsBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patientsBoard.h; sourceTree = "<group>"; };
+		B48FE35A1AD089530025863E /* patientsBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = patientsBoard.m; sourceTree = "<group>"; };
+		B48FE35C1AD09EB80025863E /* ComplicationTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplicationTable.h; sourceTree = "<group>"; };
+		B48FE35D1AD09EB80025863E /* ComplicationTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplicationTable.m; sourceTree = "<group>"; };
+		B48FE3611AD0A3A40025863E /* Cardiopulmonary resuscitation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cardiopulmonary resuscitation.h"; sourceTree = "<group>"; };
+		B48FE3621AD0A3A40025863E /* Cardiopulmonary resuscitation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cardiopulmonary resuscitation.m"; sourceTree = "<group>"; };
+		B48FE3641AD0D1FB0025863E /* CPR Options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CPR Options.h"; sourceTree = "<group>"; };
+		B48FE3651AD0D1FB0025863E /* CPR Options.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CPR Options.m"; sourceTree = "<group>"; };
+		B48FE3671AD0D8AB0025863E /* Hypothermia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hypothermia.h; sourceTree = "<group>"; };
+		B48FE3681AD0D8AB0025863E /* Hypothermia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hypothermia.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48FE3221AD05FED0025863E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48FE33E1AD05FED0025863E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48FE31C1AD05FED0025863E = {
+			isa = PBXGroup;
+			children = (
+				B48FE3271AD05FED0025863E /* newCVICU */,
+				B48FE3441AD05FED0025863E /* newCVICUTests */,
+				B48FE3261AD05FED0025863E /* Products */,
+				B48FE3511AD061800025863E /* Loginback.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		B48FE3261AD05FED0025863E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE3251AD05FED0025863E /* newCVICU.app */,
+				B48FE3411AD05FED0025863E /* newCVICUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48FE3271AD05FED0025863E /* newCVICU */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE35F1AD09EC40025863E /* General Things */,
+				B48FE3601AD09ED90025863E /* Complications */,
+				B48FE3351AD05FED0025863E /* Main.storyboard */,
+				B48FE3381AD05FED0025863E /* Images.xcassets */,
+				B48FE33A1AD05FED0025863E /* LaunchScreen.xib */,
+				B48FE32F1AD05FED0025863E /* newCVICU.xcdatamodeld */,
+				B48FE3281AD05FED0025863E /* Supporting Files */,
+			);
+			path = newCVICU;
+			sourceTree = "<group>";
+		};
+		B48FE3281AD05FED0025863E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE32C1AD05FED0025863E /* AppDelegate.h */,
+				B48FE32D1AD05FED0025863E /* AppDelegate.m */,
+				B48FE3291AD05FED0025863E /* Info.plist */,
+				B48FE32A1AD05FED0025863E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48FE3441AD05FED0025863E /* newCVICUTests */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE3471AD05FED0025863E /* newCVICUTests.m */,
+				B48FE3451AD05FED0025863E /* Supporting Files */,
+			);
+			path = newCVICUTests;
+			sourceTree = "<group>";
+		};
+		B48FE3451AD05FED0025863E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE3461AD05FED0025863E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48FE35F1AD09EC40025863E /* General Things */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE3531AD062740025863E /* customTextField.h */,
+				B48FE3541AD062740025863E /* customTextField.m */,
+				B48FE3321AD05FED0025863E /* ViewController.h */,
+				B48FE3331AD05FED0025863E /* ViewController.m */,
+				B48FE3561AD084140025863E /* MainBoard.h */,
+				B48FE3571AD084140025863E /* MainBoard.m */,
+				B48FE3591AD089530025863E /* patientsBoard.h */,
+				B48FE35A1AD089530025863E /* patientsBoard.m */,
+				B48FE35C1AD09EB80025863E /* ComplicationTable.h */,
+				B48FE35D1AD09EB80025863E /* ComplicationTable.m */,
+			);
+			name = "General Things";
+			sourceTree = "<group>";
+		};
+		B48FE3601AD09ED90025863E /* Complications */ = {
+			isa = PBXGroup;
+			children = (
+				B48FE3611AD0A3A40025863E /* Cardiopulmonary resuscitation.h */,
+				B48FE3621AD0A3A40025863E /* Cardiopulmonary resuscitation.m */,
+				B48FE3641AD0D1FB0025863E /* CPR Options.h */,
+				B48FE3651AD0D1FB0025863E /* CPR Options.m */,
+				B48FE3671AD0D8AB0025863E /* Hypothermia.h */,
+				B48FE3681AD0D8AB0025863E /* Hypothermia.m */,
+			);
+			name = Complications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48FE3241AD05FED0025863E /* newCVICU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48FE34B1AD05FED0025863E /* Build configuration list for PBXNativeTarget "newCVICU" */;
+			buildPhases = (
+				B48FE3211AD05FED0025863E /* Sources */,
+				B48FE3221AD05FED0025863E /* Frameworks */,
+				B48FE3231AD05FED0025863E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newCVICU;
+			productName = newCVICU;
+			productReference = B48FE3251AD05FED0025863E /* newCVICU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48FE3401AD05FED0025863E /* newCVICUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48FE34E1AD05FED0025863E /* Build configuration list for PBXNativeTarget "newCVICUTests" */;
+			buildPhases = (
+				B48FE33D1AD05FED0025863E /* Sources */,
+				B48FE33E1AD05FED0025863E /* Frameworks */,
+				B48FE33F1AD05FED0025863E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48FE3431AD05FED0025863E /* PBXTargetDependency */,
+			);
+			name = newCVICUTests;
+			productName = newCVICUTests;
+			productReference = B48FE3411AD05FED0025863E /* newCVICUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48FE31D1AD05FED0025863E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Yicheng Wang";
+				TargetAttributes = {
+					B48FE3241AD05FED0025863E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B48FE3401AD05FED0025863E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B48FE3241AD05FED0025863E;
+					};
+				};
+			};
+			buildConfigurationList = B48FE3201AD05FED0025863E /* Build configuration list for PBXProject "newCVICU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48FE31C1AD05FED0025863E;
+			productRefGroup = B48FE3261AD05FED0025863E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48FE3241AD05FED0025863E /* newCVICU */,
+				B48FE3401AD05FED0025863E /* newCVICUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48FE3231AD05FED0025863E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48FE3521AD061800025863E /* Loginback.jpg in Resources */,
+				B48FE3371AD05FED0025863E /* Main.storyboard in Resources */,
+				B48FE33C1AD05FED0025863E /* LaunchScreen.xib in Resources */,
+				B48FE3391AD05FED0025863E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48FE33F1AD05FED0025863E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48FE3211AD05FED0025863E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48FE3691AD0D8AB0025863E /* Hypothermia.m in Sources */,
+				B48FE35E1AD09EB80025863E /* ComplicationTable.m in Sources */,
+				B48FE32E1AD05FED0025863E /* AppDelegate.m in Sources */,
+				B48FE3311AD05FED0025863E /* newCVICU.xcdatamodeld in Sources */,
+				B48FE3661AD0D1FB0025863E /* CPR Options.m in Sources */,
+				B48FE35B1AD089530025863E /* patientsBoard.m in Sources */,
+				B48FE3341AD05FED0025863E /* ViewController.m in Sources */,
+				B48FE3631AD0A3A40025863E /* Cardiopulmonary resuscitation.m in Sources */,
+				B48FE3551AD062740025863E /* customTextField.m in Sources */,
+				B48FE32B1AD05FED0025863E /* main.m in Sources */,
+				B48FE3581AD084140025863E /* MainBoard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48FE33D1AD05FED0025863E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48FE3481AD05FED0025863E /* newCVICUTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48FE3431AD05FED0025863E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48FE3241AD05FED0025863E /* newCVICU */;
+			targetProxy = B48FE3421AD05FED0025863E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48FE3351AD05FED0025863E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48FE3361AD05FED0025863E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48FE33A1AD05FED0025863E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48FE33B1AD05FED0025863E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48FE3491AD05FED0025863E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B48FE34A1AD05FED0025863E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48FE34C1AD05FED0025863E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = newCVICU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48FE34D1AD05FED0025863E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = newCVICU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B48FE34F1AD05FED0025863E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = newCVICUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newCVICU.app/newCVICU";
+			};
+			name = Debug;
+		};
+		B48FE3501AD05FED0025863E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = newCVICUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newCVICU.app/newCVICU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48FE3201AD05FED0025863E /* Build configuration list for PBXProject "newCVICU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48FE3491AD05FED0025863E /* Debug */,
+				B48FE34A1AD05FED0025863E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48FE34B1AD05FED0025863E /* Build configuration list for PBXNativeTarget "newCVICU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48FE34C1AD05FED0025863E /* Debug */,
+				B48FE34D1AD05FED0025863E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48FE34E1AD05FED0025863E /* Build configuration list for PBXNativeTarget "newCVICUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48FE34F1AD05FED0025863E /* Debug */,
+				B48FE3501AD05FED0025863E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B48FE32F1AD05FED0025863E /* newCVICU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B48FE3301AD05FED0025863E /* newCVICU.xcdatamodel */,
+			);
+			currentVersion = B48FE3301AD05FED0025863E /* newCVICU.xcdatamodel */;
+			path = newCVICU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B48FE31D1AD05FED0025863E /* Project object */;
+}

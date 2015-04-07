@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>83B5E012-62E9-4EED-A7BB-8BEA6402C0AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>newCVICU</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5F931D3A06ABCC1647FA58A2B53BA13016EFFB32</key>
+		<string>https://github.com/dengxinyue0420/CoppeWeb.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>newCVICU/newCVICU.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5F931D3A06ABCC1647FA58A2B53BA13016EFFB32</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dengxinyue0420/CoppeWeb.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5F931D3A06ABCC1647FA58A2B53BA13016EFFB32</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5F931D3A06ABCC1647FA58A2B53BA13016EFFB32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CoppeWeb</string>
+		</dict>
+	</array>
+</dict>
+</plist>
